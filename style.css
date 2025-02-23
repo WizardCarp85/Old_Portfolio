@@ -84,6 +84,28 @@ body {
     padding: 0;
     margin: 0;
 }
+.icons{
+    padding: 15px;
+}
+.resume{
+    padding: 20px 160px;
+}
+.resume_link{
+    font-size: 28px;
+    font-family: 'Baloo 2', sans-serif;
+    border: 2px solid silver;
+    border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    box-shadow: 9px 16px 62px 19px rgba(0,0,0,0.8);
+    -webkit-box-shadow: 9px 16px 62px 19px rgba(0,0,0,0.8);
+    -moz-box-shadow: 9px 16px 62px 19px rgba(0,0,0,0.8);
+    padding: 6px;
+}
+.resume_link a{
+    text-decoration: none;
+    color: #007bff ;
+}
 .sec1{
     text-align: start;
     padding: 10px 30px 40px 50px;
