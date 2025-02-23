@@ -88,9 +88,10 @@ body {
     padding: 15px;
 }
 .resume{
-    padding: 20px 160px;
+    padding: 20px 20px;
 }
 .resume_link{
+    width: 320px;
     font-size: 28px;
     font-family: 'Baloo 2', sans-serif;
     border: 2px solid silver;
@@ -100,7 +101,7 @@ body {
     box-shadow: 9px 16px 62px 19px rgba(0,0,0,0.8);
     -webkit-box-shadow: 9px 16px 62px 19px rgba(0,0,0,0.8);
     -moz-box-shadow: 9px 16px 62px 19px rgba(0,0,0,0.8);
-    padding: 6px;
+    padding: 6px 38px;
 }
 .resume_link a{
     text-decoration: none;
@@ -177,9 +178,14 @@ body {
     padding-top: 100px;
 }
 .proj_heading{
-    color: #00a8e8;
+    font-size: 70px;
     font-family: 'Baloo 2', sans-serif;
-    font-size: 50px;
+    color: #76e4ff;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-shadow: 4px;
+    text-shadow: 4px 2px 12px rgba(78, 205, 196, 0.5);
+    padding: 0;
     text-align: center;
 }
 .projects{
@@ -202,4 +208,43 @@ body {
 .capstone a{
     color: #D3D3D3;
     text-decoration: none;
+}
+
+.section_three{
+    padding: 40px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.skill1{
+    margin-top: 20px;
+    font-size: 70px;
+    font-family: 'Baloo 2', sans-serif;
+    color: #76e4ff;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-shadow: 4px;
+    text-shadow: 4px 2px 12px rgba(78, 205, 196, 0.5);
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.skill2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.skill{
+    color: #00a8e8;
+    font-family: 'Baloo 2', sans-serif;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 700;
+    padding: 2px 15px;
+    border: 2px solid silver;
+    border-radius: 21px 21px 21px 21px;
+    -webkit-border-radius: 21px 21px 21px 21px;
+    -moz-border-radius: 21px 21px 21px 21px;
 }
