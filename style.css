@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    height: auto;
+    width: auto;
 }
 /* Body Styling */
 body {
@@ -12,7 +14,7 @@ body {
     padding: 0;
     min-height: 100vh;
     overflow-x: hidden;
-    height: 3000px;
+    height: auto;
 }
 /* Navbar Styling */
 .navbar {
