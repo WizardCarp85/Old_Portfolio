@@ -12,8 +12,8 @@ body {
     padding: 0;
     min-height: 100vh;
     overflow-x: hidden;
-    height: 2500px;
-    width: 1524px;
+    display: flex;
+    flex-direction: column;
 }
 /* Navbar Styling */
 .navbar {
